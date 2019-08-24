@@ -93,8 +93,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1374,
-                    "y": 188,
+                    "x": 1390,
+                    "y": 191,
                     "ioValues": []
                 }
             ],
@@ -165,19 +165,6 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Constant - Radius",
-                    "x": 72,
-                    "y": 302,
-                    "uniqueID": 832924,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 9.9
-                        }
-                    ]
-                },
-                {
                     "atomType": "Readme",
                     "name": "README",
                     "x": 272,
@@ -185,6 +172,19 @@
                     "uniqueID": 950419,
                     "ioValues": [],
                     "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Constant - Radius",
+                    "x": 72,
+                    "y": 307,
+                    "uniqueID": 832924,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 9.9
+                        }
+                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -306,8 +306,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1374,
-                    "y": 188,
+                    "x": 1390,
+                    "y": 191,
                     "ioValues": []
                 }
             ],
