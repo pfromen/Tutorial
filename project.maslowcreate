@@ -154,7 +154,7 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 295,
+                    "x": 300,
                     "y": 50,
                     "uniqueID": 225460,
                     "ioValues": [
@@ -245,8 +245,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 698,
-                    "y": 196,
+                    "x": 697,
+                    "y": 201,
                     "uniqueID": 449683,
                     "ioValues": []
                 },
