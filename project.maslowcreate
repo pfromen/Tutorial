@@ -10,28 +10,6 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 272,
-                    "y": 158,
-                    "uniqueID": 950419,
-                    "ioValues": [],
-                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant - Radius",
-                    "x": 72,
-                    "y": 307,
-                    "uniqueID": 832924,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 9.9
-                        }
-                    ]
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 284,
@@ -43,6 +21,15 @@
                             "ioValue": 80
                         }
                     ]
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 431,
+                    "y": 128,
+                    "uniqueID": 950419,
+                    "ioValues": [],
+                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
                 },
                 {
                     "atomType": "Extrude",
@@ -69,8 +56,8 @@
                 {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 715,
-                    "y": 276,
+                    "x": 709,
+                    "y": 282,
                     "uniqueID": 606302,
                     "ioValues": [],
                     "readmeText": "This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom."
@@ -78,12 +65,16 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 960,
-                    "y": 168,
+                    "x": 910,
+                    "y": 144,
                     "uniqueID": 140877,
                     "ioValues": [
                         {
                             "name": "2D shape 294487",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 440992",
                             "ioValue": 10
                         }
                     ],
@@ -101,8 +92,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1390,
-                    "y": 191,
+                    "x": 1156,
+                    "y": 270,
                     "ioValues": []
                 }
             ],
@@ -112,6 +103,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 606028,
                     "ap2ID": 934230
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "2D shape 294487",
+                    "ap1ID": 934230,
+                    "ap2ID": 140877
                 },
                 {
                     "ap1Name": "geometry",
