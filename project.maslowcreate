@@ -2,131 +2,6 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Molecule - Rotate and Move",
-            "x": 811,
-            "y": 85,
-            "uniqueID": 742531,
-            "ioValues": [
-                {
-                    "name": "Radius",
-                    "ioValue": 9.9
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Shape",
-                    "x": 89,
-                    "y": 55,
-                    "uniqueID": 394263,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 169,
-                    "y": 161,
-                    "uniqueID": 897042,
-                    "ioValues": [],
-                    "readmeText": "These Input atoms define the inputs for the Molecule"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Radius",
-                    "x": 89,
-                    "y": 291,
-                    "uniqueID": 385685,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 480,
-                    "y": 64,
-                    "uniqueID": 304604,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 180
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 467,
-                    "y": 263,
-                    "uniqueID": 964908,
-                    "ioValues": [],
-                    "currentEquation": 2
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 690,
-                    "y": 144,
-                    "uniqueID": 434840,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -13.86
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1390,
-                    "y": 191,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 394263,
-                    "ap2ID": 304604
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 304604,
-                    "ap2ID": 434840
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 964908,
-                    "ap2ID": 434840
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 434840
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Tutorial",
             "x": 0,
             "y": 0,
@@ -134,36 +9,6 @@
             "ioValues": [],
             "topLevel": true,
             "allAtoms": [
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 108,
-                    "y": 61,
-                    "uniqueID": 632755,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 8
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 299,
-                    "y": 47,
-                    "uniqueID": 225460,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 5
-                        }
-                    ]
-                },
                 {
                     "atomType": "Readme",
                     "name": "README",
@@ -200,31 +45,10 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 508,
-                    "y": 59,
-                    "uniqueID": 636389,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 6
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 510,
-                    "y": 283,
+                    "x": 666,
+                    "y": 157,
                     "uniqueID": 934230,
                     "ioValues": [
                         {
@@ -243,14 +67,6 @@
                     "readmeText": "Molecules like this one let you layer your model to create more space. Real estate on the screen is intentionally limited to keep projects from becoming cluttered. There is no limit to how deep you can logically nest Atoms in Molecules"
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 697,
-                    "y": 201,
-                    "uniqueID": 449683,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Readme",
                     "name": "README",
                     "x": 715,
@@ -260,33 +76,12 @@
                     "readmeText": "This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom."
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Molecule - Rotate and Move",
-                    "x": 811,
-                    "y": 85,
-                    "uniqueID": 742531,
-                    "ioValues": [
-                        {
-                            "name": "Radius",
-                            "ioValue": 9.9
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 960,
                     "y": 168,
                     "uniqueID": 140877,
                     "ioValues": [
-                        {
-                            "name": "2D shape 829766",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "2D shape 555303",
-                            "ioValue": 10
-                        },
                         {
                             "name": "2D shape 294487",
                             "ioValue": 10
@@ -315,56 +110,8 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 632755,
-                    "ap2ID": 225460
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 225460,
-                    "ap2ID": 636389
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "Radius",
-                    "ap1ID": 832924,
-                    "ap2ID": 742531
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
                     "ap1ID": 606028,
                     "ap2ID": 934230
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 636389,
-                    "ap2ID": 449683
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 934230,
-                    "ap2ID": 449683
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape",
-                    "ap1ID": 449683,
-                    "ap2ID": 742531
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "2D shape 555303",
-                    "ap1ID": 449683,
-                    "ap2ID": 140877
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "2D shape 829766",
-                    "ap1ID": 742531,
-                    "ap2ID": 140877
                 },
                 {
                     "ap1Name": "geometry",
