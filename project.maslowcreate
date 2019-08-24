@@ -223,8 +223,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 518,
-                    "y": 287,
+                    "x": 510,
+                    "y": 283,
                     "uniqueID": 934230,
                     "ioValues": [
                         {
